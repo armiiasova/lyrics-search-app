@@ -1,1 +1,1 @@
-# social-network
+# lyrics-search-app
