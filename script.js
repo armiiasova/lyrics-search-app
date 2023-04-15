@@ -1,10 +1,15 @@
+// 1 step: adding query selectors;
 
 const form = document.querySelector("#form");
 const searchInput = document.querySelector("#searchInput");
 const result = document.querySelector("#result");
 const more = document.querySelector("#more");
 
+//2step : API address needs to be added;
+
 const baseUrl = "https://api.lyrics.ovh";
+
+//3 step: Implementig async function;
 
 async function searchSongs(value) {
   const response = await fetch(`${baseUrl}/suggest/${value}`);
